@@ -17,7 +17,7 @@ C# / .NET developer building back-office systems, payment integrations, reportin
 | 想導入 AI 卻不知道從哪裡開始 | 串接 AI，整理文件、回答客服問題 |
 | 資料散在各個網站，要一筆一筆抓 | 客製爬蟲，自動整理成 Excel |
 
-### 作品
+### 作品：接案解決方案
 
 | 作品 | 說明 | 技術 |
 |---|---|---|
@@ -27,8 +27,21 @@ C# / .NET developer building back-office systems, payment integrations, reportin
 | [linebot-demo](https://github.com/Marc-YULIN/linebot-demo) | LINE 官方帳號 FAQ 自動回覆，驗證簽章、快速回覆按鈕 | ASP.NET Core、LINE Messaging API |
 | [scraper-demo](https://github.com/Marc-YULIN/scraper-demo) | 自動翻頁擷取公開資料，整理成格式化 Excel | .NET、AngleSharp |
 
+### 作品：後端系統
+
+把多年金流、會員、風控與客服系統的實務經驗，重新實作成可公開的專案；全部附自動化測試與 CI。
+
+| 作品 | 說明 | 技術 |
+|---|---|---|
+| [transfer-proof-verifier](https://github.com/Marc-YULIN/transfer-proof-verifier) | 轉帳截圖／錄影自動擷取並與訂單比對，不符自動開爭議，結果以 JWS 簽章通知 | ASP.NET Core、Redis、FFmpeg、OCR |
+| [payment-gateway-simulator](https://github.com/Marc-YULIN/payment-gateway-simulator) | 第三方金流模擬器：代收／代付、多種簽章、可注入異常的回呼與重送 | ASP.NET Core、Outbox、HMAC／RSA |
+| [loyalty-engine](https://github.com/Marc-YULIN/loyalty-engine) | 會員等級、回饋金帳本、排行榜與優惠券，高併發下帳務一致 | ASP.NET Core、EF Core、Redis |
+| [ip-allowlist-manager](https://github.com/Marc-YULIN/ip-allowlist-manager) | IP 允許／封鎖清單管理，可靠同步 Cloudflare Lists 並比對漂移 | ASP.NET Core、Vue 3、PostgreSQL |
+| [risk-alert-notifier](https://github.com/Marc-YULIN/risk-alert-notifier) | 交易風險規則引擎，即時看板與 Telegram 通知 | ASP.NET Core、SignalR、Telegram Bot |
+| [multilingual-faq-bot](https://github.com/Marc-YULIN/multilingual-faq-bot) | 繁中／英／韓／越四語 FAQ 客服，先檢索再生成，答不出來轉真人 | ASP.NET Core、BM25、Gemini |
+
 👉 作品集網頁：**https://marc-yulin.github.io**
 
 ### 技術
 
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?logo=microsoftsqlserver&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4) ![LINE](https://img.shields.io/badge/LINE_Messaging_API-06C755?logo=line&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?logo=microsoftsqlserver&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4) ![LINE](https://img.shields.io/badge/LINE_Messaging_API-06C755?logo=line&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
